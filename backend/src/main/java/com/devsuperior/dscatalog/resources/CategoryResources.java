@@ -20,7 +20,7 @@ public class CategoryResources {
 
 	@GetMapping
 	public ResponseEntity<List<Category>> get() {
-		List<Category> list = service.get();
+		List<Category> list = service.getAll();
 		return ResponseEntity.ok().body(list);
 	}
 
