@@ -18,7 +18,6 @@ public class CategoryDTO implements Serializable {
 	}
 
 	public CategoryDTO(Category entity) {
-		super();
 		this.id = entity.getId();
 		this.name = entity.getName();
 	}
@@ -38,5 +37,4 @@ public class CategoryDTO implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-
 }
